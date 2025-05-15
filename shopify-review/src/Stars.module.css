@@ -1,0 +1,9 @@
+.starsContainer {
+   display: flex;
+}
+
+.star {
+   font-size: 30px;
+   cursor: pointer;
+   color: #f9d34d;
+}

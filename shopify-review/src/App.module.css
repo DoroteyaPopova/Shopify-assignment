@@ -1,0 +1,37 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin: auto;
+   margin-top: 138px;
+   width: 70%;
+   height: 100%;
+}
+
+.reviewsSection {
+   display: flex;
+   flex-direction: column;
+   width: 70%;
+   gap: 20px;
+}
+
+.sortContainer {
+}
+
+.selectWrapper {
+   display: flex;
+   gap: 2px;
+}
+
+.sortSelect {
+   border: none;
+   color: grey;
+}

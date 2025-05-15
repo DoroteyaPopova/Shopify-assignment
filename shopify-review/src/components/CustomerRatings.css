@@ -1,0 +1,173 @@
+.customer-reviews {
+   width: 100%;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+.reviews-title {
+   font-size: 24px;
+   font-weight: 600;
+   color: #333;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.reviews-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 30px;
+}
+
+/* Overall rating section */
+.overall-rating {
+   flex: 1;
+   max-width: 200px;
+}
+
+.stars-container {
+   display: flex;
+   align-items: center;
+   margin-bottom: 5px;
+}
+
+.star {
+   font-size: 18px;
+   margin-right: 2px;
+}
+
+.star.filled {
+   color: #ffb800;
+}
+
+.star.empty {
+   color: #dddddd;
+}
+
+.rating-value {
+   font-size: 18px;
+   font-weight: bold;
+   margin-left: 8px;
+}
+
+.review-count {
+   color: #777;
+   font-size: 14px;
+   margin-top: 5px;
+}
+
+/* Rating breakdown section */
+.rating-breakdown {
+   flex: 2;
+   margin: 0 20px;
+   max-width: 350px;
+}
+
+.rating-row {
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+}
+
+.star-label {
+   width: 90px;
+   display: flex;
+}
+
+.star-label .star {
+   font-size: 14px;
+   margin-right: 1px;
+}
+
+.progress-container {
+   flex: 1;
+   height: 10px;
+   position: relative;
+   margin: 0 10px;
+}
+
+.progress-background {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: #e0e0e0;
+   border-radius: 5px;
+}
+
+.progress-bar {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   background-color: #9f3419;
+   border-radius: 5px;
+   z-index: 1;
+}
+
+.vote-count {
+   width: 30px;
+   text-align: right;
+   font-size: 14px;
+   color: #555;
+}
+
+/* Leave review button section */
+.review-action {
+   flex: 1;
+   display: flex;
+   justify-content: flex-end;
+   max-width: 200px;
+}
+
+.leave-review-btn {
+   padding: 12px 30px;
+   background-color: #9f3419;
+   color: white;
+   border: none;
+   border-radius: 2px;
+   cursor: pointer;
+   font-size: 14px;
+   transition: background-color 0.2s;
+}
+
+.leave-review-btn:hover {
+   background-color: #8b0000;
+}
+
+/* Sort options */
+.sort-options {
+   display: flex;
+   align-items: center;
+   margin: 15px 0;
+}
+
+.sort-label {
+   font-size: 14px;
+}
+
+.sort-dropdown {
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}
+
+.selected-sort {
+   color: #777;
+   font-weight: 500;
+   font-size: 14px;
+   border: none;
+}
+
+.dropdown-arrow {
+   font-size: 10px;
+   margin-left: 5px;
+   color: #555;
+}
+
+.divider {
+   border: none;
+   border-top: 1px solid #e0e0e0;
+   margin: 10px 0;
+}
